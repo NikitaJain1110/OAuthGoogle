@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div className="App">
         {/* http://locahost:4000 */}
-          <a href="http://locahost:4000/auth/google">Sign Up with Google</a>
+          <a href="http://localhost:4000/auth/google">Sign Up with Google</a>
       </div>
     );
   }
