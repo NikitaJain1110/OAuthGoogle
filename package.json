@@ -1,0 +1,17 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikita Jain",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "mongoose": "^5.10.6",
+    "passport": "^0.4.1"
+  }
+}
