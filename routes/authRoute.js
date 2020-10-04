@@ -7,7 +7,7 @@ module.exports = (app)=> {
     
     app.get('/auth/google/callback',passport.authenticate('google'))
     
-    app.get('/current_user',(req, res)=>{
+    app.get('api/current_user',(req, res)=>{
         res.send(req.user);  //req.user will exist only after getting logged in
     })
 
